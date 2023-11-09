@@ -1,0 +1,137 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+    height: 1200px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 20px;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+img {
+    width: 312px;
+    height: 290px;
+    flex-shrink: 0;
+}
+
+.ing {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.textmac {
+    color: #000;
+
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+.w {
+    padding-right: 215px;
+    color: #0071E3;
+
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pricee {
+    color: #000;
+
+    font-family: Gilroy;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 130px;
+    padding-top: 30px;
+}
+
+#wh {
+    width: 155px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #0071E3;
+    border: 0px solid;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+#Space {
+    width: 155px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #CFE7FF;
+    border: 0px solid;
+    color: #797979;
+
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.p {
+    display: flex;
+    flex-direction: column;
+    width: 321px;
+    height: 57px;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.bl {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.p button {
+    background: #FFF;
+    border-radius: 10px;
+    border: 2px solid #CFE7FF;
+    width: 321px;
+    height: 57px;
+    flex-shrink: 0;
+}
+
+#ww {
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+}
