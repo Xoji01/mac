@@ -75,9 +75,9 @@ function reload(products) {
       }
    
   
-  const openModalBtn = document.getElementById('openModalBtn');
-  const closeModalBtn = document.getElementById('closeModalBtn');
-  const modal = document.getElementById('modal');
+  let openModalBtn = document.getElementById('openModalBtn');
+  let closeModalBtn = document.getElementById('closeModalBtn');
+  let modal = document.getElementById('modal');
   
   openModalBtn.addEventListener('click', () => {
     modal.style.display = 'block';
@@ -97,19 +97,19 @@ function reload(products) {
   
   
 
-      var image = document.createElement('img');
+      let image = document.createElement('img');
       image.src = 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg';
       modal.appendChild(image);
       image.classList.add('inf')
 
       
       
-      var text = document.createElement('p');
+      let text = document.createElement('p');
       text.textContent = 'Your perfect pack for everyday)';
       modal.appendChild(text);
       
       
-      var button = document.createElement('button');
+      let button = document.createElement('button');
       button.textContent = 'заказать';
       modal.appendChild(button);
         
